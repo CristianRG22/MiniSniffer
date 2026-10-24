@@ -68,11 +68,3 @@ requirements.txt
 README.md
 .gitignore
 ```
-
-## Migración desde wirefish_v2.py
-
-1. Conserva `wirefish_v2.py` como referencia mientras verificas la migración.
-2. Instala las dependencias con `python -m pip install -r requirements.txt`.
-3. Ejecuta `python main.py`; no es necesario importar ni ejecutar el script antiguo.
-4. El parsing/captura ahora está en `wirefish/core.py`, los widgets en `wirefish/ui.py` y las funciones auxiliares en `wirefish/utils.py`.
-5. En Windows, revisa que Npcap esté instalado y elige su interfaz loopback si necesitas capturar tráfico local.
